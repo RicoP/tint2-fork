@@ -1,5 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
 project(tint2conf)
-cmake_minimum_required(VERSION 2.6)
 
 include( FindPkgConfig )
 pkg_check_modules( X11_T2C REQUIRED x11 xcomposite xdamage xinerama xrender xrandr>=1.3 )

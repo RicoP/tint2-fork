@@ -27,6 +27,7 @@
 
 #include "bt.h"
 #include "bool.h"
+#include "common.h"
 
 #if defined(HAS_BACKTRACE) || defined(HAS_LIBUNWIND) || defined(HAS_EXECINFO)
 

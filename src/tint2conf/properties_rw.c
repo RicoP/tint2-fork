@@ -1,9 +1,10 @@
+#include "common.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <gtk/gtk.h>
 
-#include "common.h"
 #include "properties.h"
 #include "properties_rw.h"
 #include "gradient_gui.h"

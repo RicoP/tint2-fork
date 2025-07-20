@@ -9,6 +9,11 @@
 #define WM_CLASS_TINT "panel"
 #define TINT2_PANGO_SLACK 0
 
+#define _POSIX_C_SOURCE 200809L
+#include <stdlib.h>   // for realpath, getenv
+#include <string.h>   // for strdup
+#include <stdio.h>    // for getline
+
 #include <glib.h>
 #include <Imlib2.h>
 #include <pango/pangocairo.h>
@@ -172,4 +177,8 @@ GList *g_list_copy_deep(GList *list, GCopyFunc func, gpointer user_data);
 #define g_assert_nonnull(expr) g_assert((expr) != NULL)
 #endif
 
+#endif
+
+#ifndef bzero
+#define bzero(b,len) memset(b, 0, len)
 #endif

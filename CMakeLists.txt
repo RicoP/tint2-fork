@@ -1,5 +1,5 @@
+cmake_minimum_required( VERSION 3.10 )
 project( tint2 )
-cmake_minimum_required( VERSION 2.8.5 )
 
 option( ENABLE_BATTERY "Enable battery status plugin" ON )
 option( ENABLE_TINT2CONF "Enable tint2conf build, a GTK+2 theme configurator for tint2" ON )

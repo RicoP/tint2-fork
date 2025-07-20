@@ -24,6 +24,7 @@
 #include "colors.h"
 #include "timer.h"
 #include "test.h"
+#include "common.h"
 
 bool warnings_for_timers = true;
 bool debug_timers = false;
